@@ -5,7 +5,7 @@
 static void event_handler(lv_obj_t * obj, lv_event_t event)
 {
     if(event == LV_EVENT_VALUE_CHANGED) {
-        printf("Value: %d\n", lv_slider_get_value(obj));
+        //printf("Value: %d\n", lv_slider_get_value(obj));
     }
 }
 

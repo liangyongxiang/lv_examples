@@ -5,7 +5,7 @@
 static void event_handler(lv_obj_t * obj, lv_event_t event)
 {
     if(event == LV_EVENT_VALUE_CHANGED) {
-        printf("Button: %s\n", lv_msgbox_get_active_btn_text(obj));
+        //printf("Button: %s\n", lv_msgbox_get_active_btn_text(obj));
     }
 }
 

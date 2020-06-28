@@ -7,7 +7,7 @@ static void event_handler(lv_obj_t * obj, lv_event_t event)
     if(event == LV_EVENT_VALUE_CHANGED) {
         const char * txt = lv_btnmatrix_get_active_btn_text(obj);
 
-        printf("%s was pressed\n", txt);
+        //printf("%s was pressed\n", txt);
     }
 }
 

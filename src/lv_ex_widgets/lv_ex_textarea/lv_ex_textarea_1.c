@@ -7,7 +7,7 @@ lv_obj_t * ta1;
 static void event_handler(lv_obj_t * obj, lv_event_t event)
 {
     if(event == LV_EVENT_VALUE_CHANGED) {
-        printf("Value: %s\n", lv_textarea_get_text(obj));
+        //printf("Value: %s\n", lv_textarea_get_text(obj));
     }
     else if(event == LV_EVENT_LONG_PRESSED_REPEAT) {
         /*For simple test: Long press the Text are to add the text below*/

@@ -59,7 +59,7 @@ static void ta_event_cb(lv_obj_t * ta, lv_event_t event)
     else if(event == LV_EVENT_INSERT) {
         const char * str = lv_event_get_data();
         if(str[0] == '\n') {
-            printf("Ready\n");
+            //printf("Ready\n");
         }
     }
 }

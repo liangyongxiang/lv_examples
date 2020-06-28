@@ -7,7 +7,7 @@ static void event_handler(lv_obj_t * obj, lv_event_t event)
     if(event == LV_EVENT_VALUE_CHANGED) {
         char buf[32];
         lv_roller_get_selected_str(obj, buf, sizeof(buf));
-        printf("Selected month: %s\n", buf);
+        //printf("Selected month: %s\n", buf);
     }
 }
 

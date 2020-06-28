@@ -8,7 +8,7 @@ static void event_handler(lv_obj_t * obj, lv_event_t event)
     if(event == LV_EVENT_VALUE_CHANGED) {
         char buf[32];
         lv_dropdown_get_selected_str(obj, buf, sizeof(buf));
-        printf("Option: %s\n", buf);
+        //printf("Option: %s\n", buf);
     }
 }
 
